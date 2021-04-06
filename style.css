@@ -1,0 +1,118 @@
+body {
+	padding: 0px;
+	margin: 0px;
+	background: #f1f1f1;
+
+}
+
+.container {
+	width: 40%;
+	margin: 40px auto;
+	box-shadow: 2px 0px 21px 4px #aa9191;
+
+}
+
+.header {
+	background: orange;
+	padding: 20px;
+	text-align: center;
+
+}
+
+.header h1 {
+	letter-spacing: 4px;
+	padding: 0px;
+	margin: 0px;
+	font-size: 3vw;
+}
+
+.btn {
+	width: 100%;
+	border-radius: 5px;
+	padding: 15px;
+	text-align: center;
+	background: orange;
+	border: none;
+	margin: 0px auto;
+	display: block;
+	font-size: 18px;
+	letter-spacing: 2px;
+	font-weight: bold;
+	
+	text-transform: uppercase;
+	cursor: pointer;
+}
+
+.btn:hover {
+	background: #e6b355;
+	transform: 1s ease;
+}
+
+.form {
+	padding: 30px 20px;	
+}
+
+.form-control {
+	position: relative;
+	display: inline-block;
+	display: flex;
+	flex-direction: column;
+}
+
+.form label {
+	display: inline-block;
+	margin-bottom: 10px;
+}
+
+.form-control input {
+	width: 95%;
+	border: 2px solid rgba(0,0,0,0.2);
+	padding: 8px 0px 8px 5px;
+	font-size: 16px;
+	border-radius: 5px;
+	
+}
+
+.form-control input:focus {
+	outline: 0;
+	border: 2px solid rgba(0,0,0,0.5);
+}
+
+.form-control i {
+	position: absolute;
+	right: 40px;
+	top: 37px;
+	visibility: hidden;
+}
+
+
+.form-control small {
+	color: red;
+	display: inline-block;
+	visibility: hidden;
+}
+
+.form-control.success input {
+	border: 2px solid green;
+}
+
+.form-control.error input {
+	border: 2px solid red;
+}
+
+.form-control.success .right {
+	color: green;
+	visibility: visible;
+}
+
+.form-control.error .wrong {
+	color: red;
+	visibility: visible;
+}
+
+.form-control.error small {
+	visibility: visible;
+	margin: 10px 0px;
+	font-style: italic;
+	font-size: 14px;
+}
